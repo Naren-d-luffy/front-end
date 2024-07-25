@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main{
+  background-color: aliceblue;
+  
+}
+
+.dash{
+  padding-left:150px ;
+  padding-right:150px ;
+}
+
+.ha{
+  color: #37447E;
+  text-decoration: none ;
+  font-family:"Roboto",sans-serif;
+  font-weight:normal;
+  font-size: 14px;
+  margin-right: 50px;
+}   
+
+.ha:hover{
+  color: #1c2240;
+  text-decoration: underline;
+}
+
+.nav{
+  padding-top: 15px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.ha-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.lan{
+  font-family:"Roboto",sans-serif;
+  font-weight:1000;
+  margin: 0;
+  color: #37447E;
+  font-size: 26px;
+  flex-grow: 2;
+  text-align: center;
+  
+
+}
+
+.buybtn{
+  font-family:"Roboto",sans-serif;
+  font-size: 12px;
+  font-weight:400;
+  background-color: #111B47;
+  color: white;
+  text-decoration: none;
+  margin-left: 300px;
+  height: 25px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buybtn:hover{
+  background-color: #505e9885;
+  color: #0a1235;
+}
+
+.data-container {
+  padding: 20px;
+}
+
+.data-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  width: 900px;
+  padding-left: 50px;
+  background-color: #a3b9e9;
+  margin-left: 150px;
+}
+
+.na{
+  font-family:"Roboto",sans-serif;
+  font-size: 25px;
+  font-weight:800;
+  color: #111B47;
+}
+
+.em{
+  font-family:"Roboto",sans-serif;
+  font-size: 18px;
+  font-weight:500;
+  color: #111b47a1;
+}
+
+.del{
+  background-color: #0a1235;
+  color: white;
+  height: 25px;
+  width: 100px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+.edi{
+  background-color: #0a1235;
+  color: white;
+  height: 25px;
+  width: 100px;
+  border: transparent;
+  border-radius: 10px;
+  margin-right: 30px;
+}
